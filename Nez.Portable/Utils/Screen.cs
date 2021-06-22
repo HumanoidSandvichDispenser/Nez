@@ -86,6 +86,12 @@ namespace Nez
 			get => _graphicsManager.IsFullScreen;
 			set => _graphicsManager.IsFullScreen = value;
 		}
+		
+		public static bool HardwareModeSwitch
+		{
+			get => _graphicsManager.HardwareModeSwitch;
+			set => _graphicsManager.HardwareModeSwitch = value;
+        }
 
 		public static DisplayOrientation SupportedOrientations
 		{
